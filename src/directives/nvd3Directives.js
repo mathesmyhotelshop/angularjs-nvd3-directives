@@ -1776,6 +1776,10 @@
                                         chart.bars.forceY(scope.$eval(attrs.forcey));
                                     }
 
+                                    if(attrs.forcey2){
+                                        chart.bars.forceY(scope.$eval(attrs.forcey2));
+                                    }
+
                                     if(attrs.tooltipcontent){
                                         chart.tooltipContent(scope.tooltipcontent());
                                     }
